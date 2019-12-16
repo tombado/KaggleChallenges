@@ -2,12 +2,14 @@
 Here I will upload my notebooks for different Kaggle challenges!
 
 
-https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge
 # Toxic Comment Classification - Score: 97.464%. (1.4% off from the best solution)
+https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge
+
 In this challenge I have used a multilayered neural network with an GloVe embedding layer, LSTM layer and GRU layer. In addition to the embedding layer, I have implemented two features. One feature represent the amount of exlamation marks used in the sentence and the other feature represent the amount of CAPS used in the sentence. These features are scaled between 0 and 1.
 
-https://www.kaggle.com/c/quora-question-pairs
 # Quora Question pairs  - Score : Averaging 75%.
+https://www.kaggle.com/c/quora-question-pairs
+
 For this challenge I have used 3 different approaches. These approaches will not provide the best solution for this challenge. It was interesting to see how these different approaches would perform on this data set. The reason why I did not attempt the "best solution" is that this solution requires alot of effort in specific knowledge about language processing, which I am not interested in. I am interested in a quick solution that is applicable for different problems, instead of creating really specific features that are only relevant for this specific challenge.
 
 First approach - score 75%.
